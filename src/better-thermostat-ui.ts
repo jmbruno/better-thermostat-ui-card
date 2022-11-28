@@ -865,6 +865,7 @@ export class BetterThermostatUi extends LitElement implements LovelaceCard {
                     if(this._config?.disable_heat && mode === "heat") return html ``;
                     if(this._config?.disable_eco && mode === "eco") return html ``;
                     if(this._config?.disable_off && mode === "off") return html ``;
+                    if(this._config?.disable_auto && mode === "auto") return html ``;
                     return this._renderIcon(mode, this.mode);
                   })}
                 `}
