@@ -48,6 +48,7 @@ const computeSchema = memoizeOne(
                 { name: "disable_summer", selector: { boolean: {} } },
                 { name: "disable_eco", selector: { boolean: {} } },
                 { name: "disable_heat", selector: { boolean: {} } },
+                { name: "disable_auto", selector: { boolean: {} } },
                 { name: "disable_off", selector: { boolean: {} } },
                 { name: "set_current_as_main", selector: { boolean: {} } },
             ],
